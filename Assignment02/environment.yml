@@ -1,0 +1,12 @@
+name: base
+dependencies:
+- python=3.12
+- pytest
+- numpy
+- matplotlib
+- pandas
+- seaborn
+- scikit-learn
+- statsmodels
+- jupyter
+- jupyterlab
