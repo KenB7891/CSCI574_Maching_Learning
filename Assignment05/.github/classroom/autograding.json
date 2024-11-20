@@ -1,0 +1,94 @@
+{
+  "tests": [
+    {
+      "name": "Show python versions",
+      "setup": "",
+      "run": "python src/python-versions.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 0
+    },
+    {
+      "name": "Test Assignment Notebook runs all cells cleanly",
+      "setup": "",
+      "run": "cd notebooks; jupyter nbconvert --execute Assg-05-Ensemble-Learning.ipynb --to notebook",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Task 1 test assignment data load",
+      "setup": "",
+      "run": "PYTHONPATH=$(pwd)/src python -m twisted.trial test_assg_tasks.test_task_1_load_data",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Task 2 train validation test split utility function",
+      "setup": "",
+      "run": "PYTHONPATH=$(pwd)/src python -m twisted.trial test_assg_tasks.test_train_val_test_split",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Task 3 test hard voting ensemble",
+      "setup": "",
+      "run": "PYTHONPATH=$(pwd)/src python -m twisted.trial test_assg_tasks.test_task_3_hard_voting_ensemble",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5 
+    },
+    {
+      "name": "Task 3 test soft voting ensemble",
+      "setup": "",
+      "run": "PYTHONPATH=$(pwd)/src python -m twisted.trial test_assg_tasks.test_task_3_soft_voting_ensemble",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "Task 4 test bag of trees ensemble",
+      "setup": "",
+      "run": "PYTHONPATH=$(pwd)/src python -m twisted.trial test_assg_tasks.test_task_4_bag_of_trees_ensemble",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Task 5 test create stacked data",
+      "setup": "",
+      "run": "PYTHONPATH=$(pwd)/src python -m twisted.trial test_assg_tasks.test_create_stacked_data",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Task 6 test stacked ensemble",
+      "setup": "",
+      "run": "PYTHONPATH=$(pwd)/src python -m twisted.trial test_assg_tasks.test_task_6_stacked_ensemble",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}
