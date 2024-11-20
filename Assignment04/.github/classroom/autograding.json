@@ -1,0 +1,84 @@
+{
+  "tests": [
+    {
+      "name": "Show python versions",
+      "setup": "",
+      "run": "python src/python-versions.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 0
+    },
+    {
+      "name": "Test Assignment Notebook runs all cells cleanly",
+      "setup": "",
+      "run": "cd notebooks; jupyter nbconvert --execute Assg-04-Support-Vector-Machines.ipynb --to notebook",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Task 1.1 test task load linearly separable data",
+      "setup": "",
+      "run": "PYTHONPATH=$(pwd)/src python -m twisted.trial test_assg_tasks.test_task_1_1_load_data",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Task 1.2 test linear svm classifier",
+      "setup": "",
+      "run": "PYTHONPATH=$(pwd)/src python -m twisted.trial test_assg_tasks.test_task_1_2_linear_svm_classifier",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Task 1.3 test liner svm classifier with different C",
+      "setup": "",
+      "run": "PYTHONPATH=$(pwd)/src python -m twisted.trial test_assg_tasks.test_task_1_3_linear_svm_classifier",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Task 2.1 test gaussian kernel function",
+      "setup": "",
+      "run": "PYTHONPATH=$(pwd)/src python -m twisted.trial test_assg_tasks.test_task_2_1_gaussian_kernel",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Task 3.1 test load nonlinear data",
+      "setup": "",
+      "run": "PYTHONPATH=$(pwd)/src python -m twisted.trial test_assg_tasks.test_task_3_1_load_data",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Task 3.2 test nonlinear svm classifier using rbf kernel",
+      "setup": "",
+      "run": "PYTHONPATH=$(pwd)/src python -m twisted.trial test_assg_tasks.test_task_3_2_rbf_svm_classifier",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}
