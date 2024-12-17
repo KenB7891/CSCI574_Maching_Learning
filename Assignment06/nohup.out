@@ -1,0 +1,489 @@
+[I 2024-12-02 02:25:30.036 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2024-12-02 02:25:30.043 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2024-12-02 02:25:30.050 ServerApp] jupyterlab | extension was successfully linked.
+[I 2024-12-02 02:25:30.056 ServerApp] notebook | extension was successfully linked.
+[I 2024-12-02 02:25:30.059 ServerApp] Writing Jupyter server cookie secret to /home/vscode/.local/share/jupyter/runtime/jupyter_cookie_secret
+[I 2024-12-02 02:25:30.497 ServerApp] notebook_shim | extension was successfully linked.
+[I 2024-12-02 02:25:30.498 ServerApp] panel.io.jupyter_server_extension | extension was successfully linked.
+[I 2024-12-02 02:25:30.523 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2024-12-02 02:25:30.525 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2024-12-02 02:25:30.527 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2024-12-02 02:25:30.535 LabApp] JupyterLab extension loaded from /opt/conda/lib/python3.12/site-packages/jupyterlab
+[I 2024-12-02 02:25:30.535 LabApp] JupyterLab application directory is /opt/conda/share/jupyter/lab
+[I 2024-12-02 02:25:30.535 LabApp] Extension Manager is 'pypi'.
+[I 2024-12-02 02:25:30.558 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2024-12-02 02:25:30.561 ServerApp] notebook | extension was successfully loaded.
+[I 2024-12-02 02:25:30.562 ServerApp] panel.io.jupyter_server_extension | extension was successfully loaded.
+[I 2024-12-02 02:25:30.562 ServerApp] Serving notebooks from local directory: /workspaces/Assignment_06
+[I 2024-12-02 02:25:30.562 ServerApp] Jupyter Server 2.14.1 is running at:
+[I 2024-12-02 02:25:30.562 ServerApp] http://b8cbafc3ecc7:8888/lab?token=dfa039786267bc641badc481ede40568893c331df8c547a1
+[I 2024-12-02 02:25:30.562 ServerApp]     http://127.0.0.1:8888/lab?token=dfa039786267bc641badc481ede40568893c331df8c547a1
+[I 2024-12-02 02:25:30.562 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2024-12-02 02:25:30.570 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///home/vscode/.local/share/jupyter/runtime/jpserver-454-open.html
+    Or copy and paste one of these URLs:
+        http://b8cbafc3ecc7:8888/lab?token=dfa039786267bc641badc481ede40568893c331df8c547a1
+        http://127.0.0.1:8888/lab?token=dfa039786267bc641badc481ede40568893c331df8c547a1
+gio: file:///home/vscode/.local/share/jupyter/runtime/jpserver-454-open.html: Failed to find default application for content type ‘text/plain’
+[I 2024-12-02 02:25:30.605 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[W 2024-12-02 02:29:37.263 LabApp] Could not determine jupyterlab build status without nodejs
+[E 2024-12-02 02:29:52.001 ServerApp] Uncaught exception GET /lsp/ws/pylsp (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8888', method='GET', uri='/lsp/ws/pylsp', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/opt/conda/lib/python3.12/site-packages/tornado/web.py", line 1767, in _execute
+        result = self.prepare()
+                 ^^^^^^^^^^^^^^
+      File "/opt/conda/lib/python3.12/site-packages/jupyter_server/base/websocket.py", line 122, in prepare
+        return super().prepare(*args, **kwargs, _redirect_to_login=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    TypeError: APIHandler.prepare() got an unexpected keyword argument '_redirect_to_login'
+[W 2024-12-02 02:29:52.004 ServerApp] wrote error: 'Unhandled error'
+    Traceback (most recent call last):
+      File "/opt/conda/lib/python3.12/site-packages/tornado/web.py", line 1767, in _execute
+        result = self.prepare()
+                 ^^^^^^^^^^^^^^
+      File "/opt/conda/lib/python3.12/site-packages/jupyter_server/base/websocket.py", line 122, in prepare
+        return super().prepare(*args, **kwargs, _redirect_to_login=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    TypeError: APIHandler.prepare() got an unexpected keyword argument '_redirect_to_login'
+[E 2024-12-02 02:29:52.004 ServerApp] {
+      "Host": "127.0.0.1:8888",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+    }
+[E 2024-12-02 02:29:52.004 ServerApp] 500 GET /lsp/ws/pylsp (@127.0.0.1) 3.15ms referer=None
+[I 2024-12-02 02:30:12.335 ServerApp] Writing notebook-signing key to /home/vscode/.local/share/jupyter/notebook_secret
+[W 2024-12-02 02:30:12.337 ServerApp] Notebook notebooks/Assg-06-KMeans-and-PCA.ipynb is not trusted
+[I 2024-12-02 02:30:12.836 ServerApp] Kernel started: b92f0056-1025-41da-9bf3-3f438c32b5c5
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[I 2024-12-02 02:30:13.489 ServerApp] Connecting to kernel b92f0056-1025-41da-9bf3-3f438c32b5c5.
+[I 2024-12-02 02:30:13.550 ServerApp] Starting buffering for b92f0056-1025-41da-9bf3-3f438c32b5c5:cb1bd801-3711-441b-9d15-ca2dbf17ee9c
+[I 2024-12-02 02:30:13.606 ServerApp] Connecting to kernel b92f0056-1025-41da-9bf3-3f438c32b5c5.
+[I 2024-12-02 02:30:13.714 ServerApp] Connecting to kernel b92f0056-1025-41da-9bf3-3f438c32b5c5.
+[I 2024-12-02 02:32:12.480 ServerApp] Saving file at /notebooks/Assg-06-KMeans-and-PCA.ipynb
+[W 2024-12-02 02:32:12.481 ServerApp] Notebook notebooks/Assg-06-KMeans-and-PCA.ipynb is not trusted
+[I 2024-12-02 02:36:12.602 ServerApp] Saving file at /notebooks/Assg-06-KMeans-and-PCA.ipynb
+[W 2024-12-02 02:36:12.603 ServerApp] Notebook notebooks/Assg-06-KMeans-and-PCA.ipynb is not trusted
+[I 2024-12-02 02:37:51.946 ServerApp] Saving file at /src/assg_tasks.py
+[I 2024-12-02 04:37:34.101 ServerApp] Starting buffering for b92f0056-1025-41da-9bf3-3f438c32b5c5:edf21973-eb25-4d51-a4ad-91d2fa92b696
+[I 2024-12-03 01:25:12.106 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2024-12-03 01:25:12.109 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2024-12-03 01:25:12.113 ServerApp] jupyterlab | extension was successfully linked.
+[I 2024-12-03 01:25:12.116 ServerApp] notebook | extension was successfully linked.
+[I 2024-12-03 01:25:12.491 ServerApp] notebook_shim | extension was successfully linked.
+[I 2024-12-03 01:25:12.491 ServerApp] panel.io.jupyter_server_extension | extension was successfully linked.
+[I 2024-12-03 01:25:12.512 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2024-12-03 01:25:12.514 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2024-12-03 01:25:12.515 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2024-12-03 01:25:12.523 LabApp] JupyterLab extension loaded from /opt/conda/lib/python3.12/site-packages/jupyterlab
+[I 2024-12-03 01:25:12.523 LabApp] JupyterLab application directory is /opt/conda/share/jupyter/lab
+[I 2024-12-03 01:25:12.523 LabApp] Extension Manager is 'pypi'.
+[I 2024-12-03 01:25:12.546 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2024-12-03 01:25:12.549 ServerApp] notebook | extension was successfully loaded.
+[I 2024-12-03 01:25:12.550 ServerApp] panel.io.jupyter_server_extension | extension was successfully loaded.
+[I 2024-12-03 01:25:12.550 ServerApp] Serving notebooks from local directory: /workspaces/Assignment_06
+[I 2024-12-03 01:25:12.550 ServerApp] Jupyter Server 2.14.1 is running at:
+[I 2024-12-03 01:25:12.550 ServerApp] http://b8cbafc3ecc7:8888/lab?token=7af75fb080d47ea6851aa10d943b27aa0ecc212f83d076b9
+[I 2024-12-03 01:25:12.550 ServerApp]     http://127.0.0.1:8888/lab?token=7af75fb080d47ea6851aa10d943b27aa0ecc212f83d076b9
+[I 2024-12-03 01:25:12.551 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2024-12-03 01:25:12.556 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///home/vscode/.local/share/jupyter/runtime/jpserver-404-open.html
+    Or copy and paste one of these URLs:
+        http://b8cbafc3ecc7:8888/lab?token=7af75fb080d47ea6851aa10d943b27aa0ecc212f83d076b9
+        http://127.0.0.1:8888/lab?token=7af75fb080d47ea6851aa10d943b27aa0ecc212f83d076b9
+gio: file:///home/vscode/.local/share/jupyter/runtime/jpserver-404-open.html: Failed to find default application for content type ‘text/plain’
+[I 2024-12-03 01:25:12.590 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[W 2024-12-03 01:41:35.182 LabApp] Could not determine jupyterlab build status without nodejs
+[W 2024-12-03 01:41:35.854 ServerApp] Notebook notebooks/Assg-06-KMeans-and-PCA.ipynb is not trusted
+[E 2024-12-03 01:41:36.038 ServerApp] Uncaught exception GET /lsp/ws/pylsp (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8888', method='GET', uri='/lsp/ws/pylsp', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/opt/conda/lib/python3.12/site-packages/tornado/web.py", line 1767, in _execute
+        result = self.prepare()
+                 ^^^^^^^^^^^^^^
+      File "/opt/conda/lib/python3.12/site-packages/jupyter_server/base/websocket.py", line 122, in prepare
+        return super().prepare(*args, **kwargs, _redirect_to_login=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    TypeError: APIHandler.prepare() got an unexpected keyword argument '_redirect_to_login'
+[W 2024-12-03 01:41:36.042 ServerApp] wrote error: 'Unhandled error'
+    Traceback (most recent call last):
+      File "/opt/conda/lib/python3.12/site-packages/tornado/web.py", line 1767, in _execute
+        result = self.prepare()
+                 ^^^^^^^^^^^^^^
+      File "/opt/conda/lib/python3.12/site-packages/jupyter_server/base/websocket.py", line 122, in prepare
+        return super().prepare(*args, **kwargs, _redirect_to_login=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    TypeError: APIHandler.prepare() got an unexpected keyword argument '_redirect_to_login'
+[E 2024-12-03 01:41:36.044 ServerApp] {
+      "Host": "127.0.0.1:8888",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+    }
+[E 2024-12-03 01:41:36.044 ServerApp] 500 GET /lsp/ws/pylsp (@127.0.0.1) 15.81ms referer=None
+[W 2024-12-03 01:41:36.186 ServerApp] 404 GET /figures/task_1_1_plot.png (2fb822a1a46141748451434313fe8e5f@127.0.0.1) 29.16ms referer=http://127.0.0.1:8888/lab
+[I 2024-12-03 01:41:36.199 ServerApp] Kernel started: b233c93d-e463-4d61-a2ee-76c6de0b563e
+[W 2024-12-03 01:41:36.339 ServerApp] 404 GET /figures/task_1_4_plot.png (2fb822a1a46141748451434313fe8e5f@127.0.0.1) 2.19ms referer=http://127.0.0.1:8888/lab
+[W 2024-12-03 01:41:36.450 ServerApp] 404 GET /figures/task_2_3_plot.png (2fb822a1a46141748451434313fe8e5f@127.0.0.1) 1.12ms referer=http://127.0.0.1:8888/lab
+[W 2024-12-03 01:41:36.505 ServerApp] 404 GET /figures/task_2_5_plot.png (2fb822a1a46141748451434313fe8e5f@127.0.0.1) 1.12ms referer=http://127.0.0.1:8888/lab
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[I 2024-12-03 01:41:36.983 ServerApp] Connecting to kernel b233c93d-e463-4d61-a2ee-76c6de0b563e.
+[I 2024-12-03 01:41:37.047 ServerApp] Starting buffering for b233c93d-e463-4d61-a2ee-76c6de0b563e:3adb4aa6-07d4-468b-a5be-7576167db3a1
+[I 2024-12-03 01:41:37.149 ServerApp] Connecting to kernel b233c93d-e463-4d61-a2ee-76c6de0b563e.
+[I 2024-12-03 01:41:37.259 ServerApp] Connecting to kernel b233c93d-e463-4d61-a2ee-76c6de0b563e.
+[I 2024-12-03 01:43:35.996 ServerApp] Saving file at /notebooks/Assg-06-KMeans-and-PCA.ipynb
+[W 2024-12-03 01:43:35.996 ServerApp] Notebook notebooks/Assg-06-KMeans-and-PCA.ipynb is not trusted
+[I 2024-12-03 05:42:50.273 ServerApp] Saving file at /src/assg_tasks.py
+[I 2024-12-03 05:43:51.479 ServerApp] Saving file at /src/assg_tasks.py
+[I 2024-12-03 05:44:02.333 ServerApp] Saving file at /notebooks/Assg-06-KMeans-and-PCA.ipynb
+[W 2024-12-03 05:44:02.333 ServerApp] Notebook notebooks/Assg-06-KMeans-and-PCA.ipynb is not trusted
+[I 2024-12-03 05:44:20.202 ServerApp] Saving file at /src/assg_tasks.py
+[I 2024-12-03 05:44:52.177 ServerApp] Saving file at /src/assg_tasks.py
+[I 2024-12-03 05:44:55.632 ServerApp] Saving file at /notebooks/Assg-06-KMeans-and-PCA.ipynb
+[W 2024-12-03 05:44:55.632 ServerApp] Notebook notebooks/Assg-06-KMeans-and-PCA.ipynb is not trusted
+[I 2024-12-03 05:48:55.754 ServerApp] Saving file at /notebooks/Assg-06-KMeans-and-PCA.ipynb
+[W 2024-12-03 05:48:55.755 ServerApp] Notebook notebooks/Assg-06-KMeans-and-PCA.ipynb is not trusted
+[I 2024-12-03 05:50:55.850 ServerApp] Saving file at /notebooks/Assg-06-KMeans-and-PCA.ipynb
+[W 2024-12-03 05:50:55.851 ServerApp] Notebook notebooks/Assg-06-KMeans-and-PCA.ipynb is not trusted
+[I 2024-12-03 05:52:55.957 ServerApp] Saving file at /notebooks/Assg-06-KMeans-and-PCA.ipynb
+[W 2024-12-03 05:52:55.958 ServerApp] Notebook notebooks/Assg-06-KMeans-and-PCA.ipynb is not trusted
+[I 2024-12-03 08:23:02.334 ServerApp] Saving file at /notebooks/Assg-06-KMeans-and-PCA.ipynb
+[W 2024-12-03 08:23:02.335 ServerApp] Notebook notebooks/Assg-06-KMeans-and-PCA.ipynb is not trusted
+[I 2024-12-03 08:25:02.439 ServerApp] Saving file at /notebooks/Assg-06-KMeans-and-PCA.ipynb
+[W 2024-12-03 08:25:02.440 ServerApp] Notebook notebooks/Assg-06-KMeans-and-PCA.ipynb is not trusted
+[I 2024-12-03 08:27:02.503 ServerApp] Saving file at /notebooks/Assg-06-KMeans-and-PCA.ipynb
+[W 2024-12-03 08:27:02.504 ServerApp] Notebook notebooks/Assg-06-KMeans-and-PCA.ipynb is not trusted
+[I 2024-12-03 08:29:02.612 ServerApp] Saving file at /notebooks/Assg-06-KMeans-and-PCA.ipynb
+[W 2024-12-03 08:29:02.613 ServerApp] Notebook notebooks/Assg-06-KMeans-and-PCA.ipynb is not trusted
+[I 2024-12-03 08:31:02.718 ServerApp] Saving file at /notebooks/Assg-06-KMeans-and-PCA.ipynb
+[W 2024-12-03 08:31:02.719 ServerApp] Notebook notebooks/Assg-06-KMeans-and-PCA.ipynb is not trusted
+[I 2024-12-03 08:33:02.825 ServerApp] Saving file at /notebooks/Assg-06-KMeans-and-PCA.ipynb
+[W 2024-12-03 08:33:02.826 ServerApp] Notebook notebooks/Assg-06-KMeans-and-PCA.ipynb is not trusted
+[I 2024-12-03 08:35:02.921 ServerApp] Saving file at /notebooks/Assg-06-KMeans-and-PCA.ipynb
+[W 2024-12-03 08:35:02.921 ServerApp] Notebook notebooks/Assg-06-KMeans-and-PCA.ipynb is not trusted
+[I 2024-12-03 08:41:02.333 ServerApp] Saving file at /src/assg_tasks.py
+[I 2024-12-03 08:45:02.378 ServerApp] Saving file at /src/assg_tasks.py
+[I 2024-12-03 08:47:02.412 ServerApp] Saving file at /src/assg_tasks.py
+[I 2024-12-03 08:49:02.436 ServerApp] Saving file at /src/assg_tasks.py
+[I 2024-12-03 08:51:02.471 ServerApp] Saving file at /src/assg_tasks.py
+[I 2024-12-03 08:51:03.062 ServerApp] Saving file at /notebooks/Assg-06-KMeans-and-PCA.ipynb
+[W 2024-12-03 08:51:03.063 ServerApp] Notebook notebooks/Assg-06-KMeans-and-PCA.ipynb is not trusted
+[I 2024-12-03 08:53:02.501 ServerApp] Saving file at /src/assg_tasks.py
+[I 2024-12-03 08:55:02.539 ServerApp] Saving file at /src/assg_tasks.py
+[I 2024-12-03 08:56:54.823 ServerApp] Saving file at /src/assg_tasks.py
+[I 2024-12-03 08:59:03.188 ServerApp] Saving file at /notebooks/Assg-06-KMeans-and-PCA.ipynb
+[W 2024-12-03 08:59:03.188 ServerApp] Notebook notebooks/Assg-06-KMeans-and-PCA.ipynb is not trusted
+[I 2024-12-03 09:02:54.861 ServerApp] Saving file at /src/assg_tasks.py
+[I 2024-12-03 09:04:54.895 ServerApp] Saving file at /src/assg_tasks.py
+[I 2024-12-03 09:16:56.289 ServerApp] Saving file at /src/assg_tasks.py
+[I 2024-12-03 09:18:56.317 ServerApp] Saving file at /src/assg_tasks.py
+[I 2024-12-03 09:20:57.273 ServerApp] Saving file at /src/assg_tasks.py
+[I 2024-12-03 09:22:57.301 ServerApp] Saving file at /src/assg_tasks.py
+[I 2024-12-03 09:24:57.340 ServerApp] Saving file at /src/assg_tasks.py
+[I 2024-12-03 09:26:57.363 ServerApp] Saving file at /src/assg_tasks.py
+[I 2024-12-03 09:28:57.387 ServerApp] Saving file at /src/assg_tasks.py
+[I 2024-12-03 09:30:57.418 ServerApp] Saving file at /src/assg_tasks.py
+[I 2024-12-03 09:31:16.072 ServerApp] Saving file at /src/assg_tasks.py
+[I 2024-12-03 09:32:00.981 ServerApp] Saving file at /src/assg_tasks.py
+[I 2024-12-03 09:32:44.076 ServerApp] Saving file at /src/assg_tasks.py
+[I 2024-12-03 09:33:06.329 ServerApp] Saving file at /notebooks/Assg-06-KMeans-and-PCA.ipynb
+[W 2024-12-03 09:33:06.329 ServerApp] Notebook notebooks/Assg-06-KMeans-and-PCA.ipynb is not trusted
+[I 2024-12-03 09:34:44.275 ServerApp] Saving file at /src/assg_tasks.py
+[I 2024-12-03 09:36:44.445 ServerApp] Saving file at /src/assg_tasks.py
+[I 2024-12-03 09:38:17.817 ServerApp] Saving file at /src/assg_tasks.py
+[I 2024-12-03 09:39:07.337 ServerApp] Saving file at /notebooks/Assg-06-KMeans-and-PCA.ipynb
+[W 2024-12-03 09:39:07.337 ServerApp] Notebook notebooks/Assg-06-KMeans-and-PCA.ipynb is not trusted
+[I 2024-12-03 09:42:17.838 ServerApp] Saving file at /src/assg_tasks.py
+[I 2024-12-03 09:44:18.262 ServerApp] Saving file at /src/assg_tasks.py
+[I 2024-12-03 09:50:20.287 ServerApp] Saving file at /src/assg_tasks.py
+[I 2024-12-03 09:54:20.320 ServerApp] Saving file at /src/assg_tasks.py
+[I 2024-12-03 09:56:20.344 ServerApp] Saving file at /src/assg_tasks.py
+[I 2024-12-03 09:58:20.368 ServerApp] Saving file at /src/assg_tasks.py
+[I 2024-12-03 09:59:26.488 ServerApp] Saving file at /src/assg_tasks.py
+[I 2024-12-03 10:01:08.344 ServerApp] Saving file at /notebooks/Assg-06-KMeans-and-PCA.ipynb
+[W 2024-12-03 10:01:08.345 ServerApp] Notebook notebooks/Assg-06-KMeans-and-PCA.ipynb is not trusted
+[I 2024-12-03 10:03:09.330 ServerApp] Saving file at /notebooks/Assg-06-KMeans-and-PCA.ipynb
+[W 2024-12-03 10:03:09.331 ServerApp] Notebook notebooks/Assg-06-KMeans-and-PCA.ipynb is not trusted
+[I 2024-12-03 10:05:09.391 ServerApp] Saving file at /notebooks/Assg-06-KMeans-and-PCA.ipynb
+[W 2024-12-03 10:05:09.392 ServerApp] Notebook notebooks/Assg-06-KMeans-and-PCA.ipynb is not trusted
+[I 2024-12-03 10:09:10.319 ServerApp] Saving file at /notebooks/Assg-06-KMeans-and-PCA.ipynb
+[W 2024-12-03 10:09:10.320 ServerApp] Notebook notebooks/Assg-06-KMeans-and-PCA.ipynb is not trusted
+[I 2024-12-03 10:15:38.954 ServerApp] Saving file at /src/assg_tasks.py
+[I 2024-12-03 10:15:40.697 ServerApp] Saving file at /notebooks/Assg-06-KMeans-and-PCA.ipynb
+[W 2024-12-03 10:15:40.698 ServerApp] Notebook notebooks/Assg-06-KMeans-and-PCA.ipynb is not trusted
+[I 2024-12-03 10:15:42.284 ServerApp] Starting buffering for b233c93d-e463-4d61-a2ee-76c6de0b563e:64c78a02-e190-4046-8a4f-8f5f57fb0af8
+[I 2024-12-03 15:33:19.550 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2024-12-03 15:33:19.555 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2024-12-03 15:33:19.558 ServerApp] jupyterlab | extension was successfully linked.
+[I 2024-12-03 15:33:19.562 ServerApp] notebook | extension was successfully linked.
+[I 2024-12-03 15:33:19.983 ServerApp] notebook_shim | extension was successfully linked.
+[I 2024-12-03 15:33:19.984 ServerApp] panel.io.jupyter_server_extension | extension was successfully linked.
+[I 2024-12-03 15:33:20.006 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2024-12-03 15:33:20.008 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2024-12-03 15:33:20.009 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2024-12-03 15:33:20.016 LabApp] JupyterLab extension loaded from /opt/conda/lib/python3.12/site-packages/jupyterlab
+[I 2024-12-03 15:33:20.017 LabApp] JupyterLab application directory is /opt/conda/share/jupyter/lab
+[I 2024-12-03 15:33:20.017 LabApp] Extension Manager is 'pypi'.
+[I 2024-12-03 15:33:20.042 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2024-12-03 15:33:20.045 ServerApp] notebook | extension was successfully loaded.
+[I 2024-12-03 15:33:20.046 ServerApp] panel.io.jupyter_server_extension | extension was successfully loaded.
+[I 2024-12-03 15:33:20.047 ServerApp] Serving notebooks from local directory: /workspaces/Assignment_06
+[I 2024-12-03 15:33:20.047 ServerApp] Jupyter Server 2.14.1 is running at:
+[I 2024-12-03 15:33:20.047 ServerApp] http://b8cbafc3ecc7:8888/lab?token=c1c141175cf5f93f1caa39d6ee745e083bbc118afdcddef4
+[I 2024-12-03 15:33:20.047 ServerApp]     http://127.0.0.1:8888/lab?token=c1c141175cf5f93f1caa39d6ee745e083bbc118afdcddef4
+[I 2024-12-03 15:33:20.047 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2024-12-03 15:33:20.052 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///home/vscode/.local/share/jupyter/runtime/jpserver-399-open.html
+    Or copy and paste one of these URLs:
+        http://b8cbafc3ecc7:8888/lab?token=c1c141175cf5f93f1caa39d6ee745e083bbc118afdcddef4
+        http://127.0.0.1:8888/lab?token=c1c141175cf5f93f1caa39d6ee745e083bbc118afdcddef4
+gio: file:///home/vscode/.local/share/jupyter/runtime/jpserver-399-open.html: Failed to find default application for content type ‘text/plain’
+[I 2024-12-03 15:33:20.092 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[W 2024-12-03 15:37:28.073 LabApp] Could not determine jupyterlab build status without nodejs
+[W 2024-12-03 15:37:28.900 ServerApp] Notebook notebooks/Assg-06-KMeans-and-PCA.ipynb is not trusted
+[E 2024-12-03 15:37:28.915 ServerApp] Uncaught exception GET /lsp/ws/pylsp (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8888', method='GET', uri='/lsp/ws/pylsp', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/opt/conda/lib/python3.12/site-packages/tornado/web.py", line 1767, in _execute
+        result = self.prepare()
+                 ^^^^^^^^^^^^^^
+      File "/opt/conda/lib/python3.12/site-packages/jupyter_server/base/websocket.py", line 122, in prepare
+        return super().prepare(*args, **kwargs, _redirect_to_login=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    TypeError: APIHandler.prepare() got an unexpected keyword argument '_redirect_to_login'
+[W 2024-12-03 15:37:28.919 ServerApp] wrote error: 'Unhandled error'
+    Traceback (most recent call last):
+      File "/opt/conda/lib/python3.12/site-packages/tornado/web.py", line 1767, in _execute
+        result = self.prepare()
+                 ^^^^^^^^^^^^^^
+      File "/opt/conda/lib/python3.12/site-packages/jupyter_server/base/websocket.py", line 122, in prepare
+        return super().prepare(*args, **kwargs, _redirect_to_login=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    TypeError: APIHandler.prepare() got an unexpected keyword argument '_redirect_to_login'
+[E 2024-12-03 15:37:28.921 ServerApp] {
+      "Host": "127.0.0.1:8888",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+    }
+[E 2024-12-03 15:37:28.922 ServerApp] 500 GET /lsp/ws/pylsp (@127.0.0.1) 9.47ms referer=None
+[W 2024-12-03 15:37:29.171 ServerApp] 404 GET /figures/task_1_1_plot.png (e65ba50e9f774073b1535627d4ad12ce@127.0.0.1) 24.06ms referer=http://127.0.0.1:8888/lab
+[I 2024-12-03 15:37:29.336 ServerApp] Kernel started: 49f1e0bb-b515-4a3e-92c5-240b138f6c31
+[W 2024-12-03 15:37:29.603 ServerApp] 404 GET /figures/task_1_4_plot.png (e65ba50e9f774073b1535627d4ad12ce@127.0.0.1) 1.30ms referer=http://127.0.0.1:8888/lab
+[W 2024-12-03 15:37:29.720 ServerApp] 404 GET /figures/task_2_3_plot.png (e65ba50e9f774073b1535627d4ad12ce@127.0.0.1) 1.66ms referer=http://127.0.0.1:8888/lab
+[W 2024-12-03 15:37:29.814 ServerApp] 404 GET /figures/task_2_5_plot.png (e65ba50e9f774073b1535627d4ad12ce@127.0.0.1) 1.39ms referer=http://127.0.0.1:8888/lab
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[I 2024-12-03 15:37:29.919 ServerApp] Connecting to kernel 49f1e0bb-b515-4a3e-92c5-240b138f6c31.
+[I 2024-12-03 15:37:29.996 ServerApp] Starting buffering for 49f1e0bb-b515-4a3e-92c5-240b138f6c31:87676d6d-2186-4aa3-b6f8-1c56593f26b9
+[I 2024-12-03 15:37:30.037 ServerApp] Connecting to kernel 49f1e0bb-b515-4a3e-92c5-240b138f6c31.
+[I 2024-12-03 15:37:30.196 ServerApp] Connecting to kernel 49f1e0bb-b515-4a3e-92c5-240b138f6c31.
+[I 2024-12-03 22:37:19.077 ServerApp] Starting buffering for 49f1e0bb-b515-4a3e-92c5-240b138f6c31:32cdcebb-4f3d-4336-aa3f-4f3608dfce19
+[I 2024-12-04 02:47:54.881 ServerApp] Connecting to kernel 49f1e0bb-b515-4a3e-92c5-240b138f6c31.
+[I 2024-12-04 02:47:54.881 ServerApp] Restoring connection for 49f1e0bb-b515-4a3e-92c5-240b138f6c31:32cdcebb-4f3d-4336-aa3f-4f3608dfce19
+[I 2024-12-04 05:10:42.116 ServerApp] Starting buffering for 49f1e0bb-b515-4a3e-92c5-240b138f6c31:32cdcebb-4f3d-4336-aa3f-4f3608dfce19
+[I 2024-12-06 05:51:40.692 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2024-12-06 05:51:40.696 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2024-12-06 05:51:40.702 ServerApp] jupyterlab | extension was successfully linked.
+[I 2024-12-06 05:51:40.709 ServerApp] notebook | extension was successfully linked.
+[I 2024-12-06 05:51:41.219 ServerApp] notebook_shim | extension was successfully linked.
+[I 2024-12-06 05:51:41.220 ServerApp] panel.io.jupyter_server_extension | extension was successfully linked.
+[I 2024-12-06 05:51:41.253 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2024-12-06 05:51:41.256 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2024-12-06 05:51:41.259 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2024-12-06 05:51:41.270 LabApp] JupyterLab extension loaded from /opt/conda/lib/python3.12/site-packages/jupyterlab
+[I 2024-12-06 05:51:41.270 LabApp] JupyterLab application directory is /opt/conda/share/jupyter/lab
+[I 2024-12-06 05:51:41.271 LabApp] Extension Manager is 'pypi'.
+[I 2024-12-06 05:51:41.315 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2024-12-06 05:51:41.326 ServerApp] notebook | extension was successfully loaded.
+[I 2024-12-06 05:51:41.329 ServerApp] panel.io.jupyter_server_extension | extension was successfully loaded.
+[I 2024-12-06 05:51:41.330 ServerApp] Serving notebooks from local directory: /workspaces/Assignment_06
+[I 2024-12-06 05:51:41.330 ServerApp] Jupyter Server 2.14.1 is running at:
+[I 2024-12-06 05:51:41.330 ServerApp] http://b8cbafc3ecc7:8888/lab?token=2b3ebea47c44c10dc10d77772418f92ffd9c36f07e9a369c
+[I 2024-12-06 05:51:41.330 ServerApp]     http://127.0.0.1:8888/lab?token=2b3ebea47c44c10dc10d77772418f92ffd9c36f07e9a369c
+[I 2024-12-06 05:51:41.330 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2024-12-06 05:51:41.339 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///home/vscode/.local/share/jupyter/runtime/jpserver-418-open.html
+    Or copy and paste one of these URLs:
+        http://b8cbafc3ecc7:8888/lab?token=2b3ebea47c44c10dc10d77772418f92ffd9c36f07e9a369c
+        http://127.0.0.1:8888/lab?token=2b3ebea47c44c10dc10d77772418f92ffd9c36f07e9a369c
+gio: file:///home/vscode/.local/share/jupyter/runtime/jpserver-418-open.html: Failed to find default application for content type ‘text/plain’
+[I 2024-12-06 05:51:41.423 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[W 2024-12-06 05:52:16.291 LabApp] Could not determine jupyterlab build status without nodejs
+[W 2024-12-06 05:52:17.270 ServerApp] Notebook notebooks/Assg-06-KMeans-and-PCA.ipynb is not trusted
+[E 2024-12-06 05:52:17.279 ServerApp] Uncaught exception GET /lsp/ws/pylsp (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8888', method='GET', uri='/lsp/ws/pylsp', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/opt/conda/lib/python3.12/site-packages/tornado/web.py", line 1767, in _execute
+        result = self.prepare()
+                 ^^^^^^^^^^^^^^
+      File "/opt/conda/lib/python3.12/site-packages/jupyter_server/base/websocket.py", line 122, in prepare
+        return super().prepare(*args, **kwargs, _redirect_to_login=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    TypeError: APIHandler.prepare() got an unexpected keyword argument '_redirect_to_login'
+[W 2024-12-06 05:52:17.284 ServerApp] wrote error: 'Unhandled error'
+    Traceback (most recent call last):
+      File "/opt/conda/lib/python3.12/site-packages/tornado/web.py", line 1767, in _execute
+        result = self.prepare()
+                 ^^^^^^^^^^^^^^
+      File "/opt/conda/lib/python3.12/site-packages/jupyter_server/base/websocket.py", line 122, in prepare
+        return super().prepare(*args, **kwargs, _redirect_to_login=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    TypeError: APIHandler.prepare() got an unexpected keyword argument '_redirect_to_login'
+[E 2024-12-06 05:52:17.285 ServerApp] {
+      "Host": "127.0.0.1:8888",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+    }
+[E 2024-12-06 05:52:17.285 ServerApp] 500 GET /lsp/ws/pylsp (@127.0.0.1) 35.13ms referer=None
+[W 2024-12-06 05:52:17.546 ServerApp] 404 GET /figures/task_1_1_plot.png (e65ba50e9f774073b1535627d4ad12ce@127.0.0.1) 25.83ms referer=http://127.0.0.1:8888/lab
+[I 2024-12-06 05:52:17.753 ServerApp] Kernel started: 46bd0a59-9d33-426d-bb2e-642beba8ea5e
+[W 2024-12-06 05:52:18.006 ServerApp] 404 GET /figures/task_1_4_plot.png (e65ba50e9f774073b1535627d4ad12ce@127.0.0.1) 1.89ms referer=http://127.0.0.1:8888/lab
+[W 2024-12-06 05:52:18.128 ServerApp] 404 GET /figures/task_2_3_plot.png (e65ba50e9f774073b1535627d4ad12ce@127.0.0.1) 4.11ms referer=http://127.0.0.1:8888/lab
+[W 2024-12-06 05:52:18.219 ServerApp] 404 GET /figures/task_2_5_plot.png (e65ba50e9f774073b1535627d4ad12ce@127.0.0.1) 1.60ms referer=http://127.0.0.1:8888/lab
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[I 2024-12-06 05:52:18.474 ServerApp] Connecting to kernel 46bd0a59-9d33-426d-bb2e-642beba8ea5e.
+[I 2024-12-06 05:52:18.542 ServerApp] Starting buffering for 46bd0a59-9d33-426d-bb2e-642beba8ea5e:ac5debfb-90f0-4f9c-8ce9-af0b2e072d44
+[I 2024-12-06 05:52:18.601 ServerApp] Connecting to kernel 46bd0a59-9d33-426d-bb2e-642beba8ea5e.
+[I 2024-12-06 05:52:18.724 ServerApp] Connecting to kernel 46bd0a59-9d33-426d-bb2e-642beba8ea5e.
+[I 2024-12-06 06:18:55.499 ServerApp] Starting buffering for 46bd0a59-9d33-426d-bb2e-642beba8ea5e:86c95f43-73bf-46a1-bdf7-ae405ea72d10
+[W 2024-12-06 06:41:25.514 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2024-12-06 06:41:25.717 ServerApp] Connecting to kernel 46bd0a59-9d33-426d-bb2e-642beba8ea5e.
+[I 2024-12-06 06:41:25.839 ServerApp] Starting buffering for 46bd0a59-9d33-426d-bb2e-642beba8ea5e:1886d3a7-beb4-4b2e-9ed6-d9bcbe9de646
+[W 2024-12-06 06:41:26.187 ServerApp] Notebook notebooks/Assg-06-KMeans-and-PCA.ipynb is not trusted
+[E 2024-12-06 06:41:26.418 ServerApp] Uncaught exception GET /lsp/ws/pylsp (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='127.0.0.1:8888', method='GET', uri='/lsp/ws/pylsp', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/opt/conda/lib/python3.12/site-packages/tornado/web.py", line 1767, in _execute
+        result = self.prepare()
+                 ^^^^^^^^^^^^^^
+      File "/opt/conda/lib/python3.12/site-packages/jupyter_server/base/websocket.py", line 122, in prepare
+        return super().prepare(*args, **kwargs, _redirect_to_login=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    TypeError: APIHandler.prepare() got an unexpected keyword argument '_redirect_to_login'
+[W 2024-12-06 06:41:26.419 ServerApp] wrote error: 'Unhandled error'
+    Traceback (most recent call last):
+      File "/opt/conda/lib/python3.12/site-packages/tornado/web.py", line 1767, in _execute
+        result = self.prepare()
+                 ^^^^^^^^^^^^^^
+      File "/opt/conda/lib/python3.12/site-packages/jupyter_server/base/websocket.py", line 122, in prepare
+        return super().prepare(*args, **kwargs, _redirect_to_login=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    TypeError: APIHandler.prepare() got an unexpected keyword argument '_redirect_to_login'
+[E 2024-12-06 06:41:26.420 ServerApp] {
+      "Host": "127.0.0.1:8888",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+    }
+[E 2024-12-06 06:41:26.421 ServerApp] 500 GET /lsp/ws/pylsp (@127.0.0.1) 9.38ms referer=None
+[W 2024-12-06 06:41:26.569 ServerApp] 404 GET /figures/task_1_1_plot.png (e65ba50e9f774073b1535627d4ad12ce@127.0.0.1) 3.34ms referer=http://127.0.0.1:8888/lab
+[I 2024-12-06 06:41:26.770 ServerApp] Connecting to kernel 46bd0a59-9d33-426d-bb2e-642beba8ea5e.
+[W 2024-12-06 06:41:26.913 ServerApp] 404 GET /figures/task_1_4_plot.png (e65ba50e9f774073b1535627d4ad12ce@127.0.0.1) 1.13ms referer=http://127.0.0.1:8888/lab
+[W 2024-12-06 06:41:27.045 ServerApp] 404 GET /figures/task_2_3_plot.png (e65ba50e9f774073b1535627d4ad12ce@127.0.0.1) 1.95ms referer=http://127.0.0.1:8888/lab
+[W 2024-12-06 06:41:27.134 ServerApp] 404 GET /figures/task_2_5_plot.png (e65ba50e9f774073b1535627d4ad12ce@127.0.0.1) 1.69ms referer=http://127.0.0.1:8888/lab
+[I 2024-12-06 07:54:12.127 ServerApp] Saving file at /notebooks/Assg-06-KMeans-and-PCA.ipynb
+[W 2024-12-06 07:54:12.128 ServerApp] Notebook notebooks/Assg-06-KMeans-and-PCA.ipynb is not trusted
+[I 2024-12-06 07:56:12.233 ServerApp] Saving file at /notebooks/Assg-06-KMeans-and-PCA.ipynb
+[W 2024-12-06 07:56:12.234 ServerApp] Notebook notebooks/Assg-06-KMeans-and-PCA.ipynb is not trusted
+[I 2024-12-06 07:57:56.296 ServerApp] Kernel restarted: 46bd0a59-9d33-426d-bb2e-642beba8ea5e
+[I 2024-12-06 07:57:56.301 ServerApp] Starting buffering for 46bd0a59-9d33-426d-bb2e-642beba8ea5e:30ca4ae1-d162-4cae-a5a5-d09d178d688b
+[I 2024-12-06 07:57:56.448 ServerApp] Connecting to kernel 46bd0a59-9d33-426d-bb2e-642beba8ea5e.
+[I 2024-12-06 07:57:56.448 ServerApp] Restoring connection for 46bd0a59-9d33-426d-bb2e-642beba8ea5e:30ca4ae1-d162-4cae-a5a5-d09d178d688b
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[I 2024-12-06 07:58:12.317 ServerApp] Saving file at /notebooks/Assg-06-KMeans-and-PCA.ipynb
+[I 2024-12-06 08:00:12.360 ServerApp] Saving file at /notebooks/Assg-06-KMeans-and-PCA.ipynb
+[I 2024-12-06 08:01:36.717 ServerApp] Saving file at /notebooks/Assg-06-KMeans-and-PCA.ipynb
+[I 2024-12-06 08:05:36.768 ServerApp] Saving file at /notebooks/Assg-06-KMeans-and-PCA.ipynb
+[I 2024-12-06 08:07:36.806 ServerApp] Saving file at /notebooks/Assg-06-KMeans-and-PCA.ipynb
+[I 2024-12-06 08:11:36.901 ServerApp] Saving file at /notebooks/Assg-06-KMeans-and-PCA.ipynb
+[I 2024-12-06 08:13:36.986 ServerApp] Saving file at /notebooks/Assg-06-KMeans-and-PCA.ipynb
+[I 2024-12-06 08:13:50.349 ServerApp] Saving file at /src/assg_tasks.py
+[I 2024-12-06 08:15:37.082 ServerApp] Saving file at /notebooks/Assg-06-KMeans-and-PCA.ipynb
+[I 2024-12-06 08:17:37.131 ServerApp] Saving file at /notebooks/Assg-06-KMeans-and-PCA.ipynb
+[I 2024-12-06 08:19:50.376 ServerApp] Saving file at /src/assg_tasks.py
+[I 2024-12-06 08:21:50.401 ServerApp] Saving file at /src/assg_tasks.py
+[I 2024-12-06 08:23:21.355 ServerApp] Saving file at /src/assg_tasks.py
+[I 2024-12-06 08:23:37.226 ServerApp] Saving file at /notebooks/Assg-06-KMeans-and-PCA.ipynb
+[I 2024-12-06 08:23:48.232 ServerApp] Saving file at /src/assg_tasks.py
+[I 2024-12-06 08:25:37.269 ServerApp] Saving file at /notebooks/Assg-06-KMeans-and-PCA.ipynb
+[I 2024-12-06 08:27:48.267 ServerApp] Saving file at /src/assg_tasks.py
+[I 2024-12-06 08:29:48.302 ServerApp] Saving file at /src/assg_tasks.py
+[I 2024-12-06 08:31:41.857 ServerApp] Saving file at /src/assg_tasks.py
+[I 2024-12-06 08:33:37.358 ServerApp] Saving file at /notebooks/Assg-06-KMeans-and-PCA.ipynb
+[I 2024-12-06 08:37:37.410 ServerApp] Saving file at /notebooks/Assg-06-KMeans-and-PCA.ipynb
+[I 2024-12-06 08:37:41.905 ServerApp] Saving file at /src/assg_tasks.py
+[I 2024-12-06 08:41:41.952 ServerApp] Saving file at /src/assg_tasks.py
+[I 2024-12-06 08:43:41.993 ServerApp] Saving file at /src/assg_tasks.py
+[I 2024-12-06 08:44:20.697 ServerApp] Saving file at /src/assg_tasks.py
+[I 2024-12-06 08:44:34.565 ServerApp] Saving file at /src/assg_tasks.py
+[I 2024-12-06 08:45:00.699 ServerApp] Saving file at /src/assg_tasks.py
+[I 2024-12-06 08:45:37.539 ServerApp] Saving file at /notebooks/Assg-06-KMeans-and-PCA.ipynb
+[I 2024-12-06 08:47:00.722 ServerApp] Saving file at /src/assg_tasks.py
+[I 2024-12-06 08:47:04.273 ServerApp] Saving file at /src/assg_tasks.py
+[I 2024-12-06 08:47:05.728 ServerApp] Saving file at /src/assg_tasks.py
+[I 2024-12-06 08:47:37.626 ServerApp] Saving file at /notebooks/Assg-06-KMeans-and-PCA.ipynb
+[I 2024-12-06 08:51:05.760 ServerApp] Saving file at /src/assg_tasks.py
+[I 2024-12-06 08:51:14.486 ServerApp] Saving file at /src/assg_tasks.py
+[I 2024-12-06 08:51:37.850 ServerApp] Saving file at /notebooks/Assg-06-KMeans-and-PCA.ipynb
+[I 2024-12-06 08:54:00.779 ServerApp] Saving file at /src/assg_tasks.py
+[I 2024-12-06 08:55:37.895 ServerApp] Saving file at /notebooks/Assg-06-KMeans-and-PCA.ipynb
+[I 2024-12-06 08:56:22.741 ServerApp] Saving file at /src/assg_tasks.py
+[I 2024-12-06 08:56:52.815 ServerApp] Saving file at /src/assg_tasks.py
+[I 2024-12-06 08:57:05.971 ServerApp] Saving file at /src/assg_tasks.py
+[I 2024-12-06 08:57:37.998 ServerApp] Saving file at /notebooks/Assg-06-KMeans-and-PCA.ipynb
+[I 2024-12-06 08:58:49.503 ServerApp] Saving file at /src/assg_tasks.py
+[I 2024-12-06 08:59:01.199 ServerApp] Saving file at /src/assg_tasks.py
+[I 2024-12-06 08:59:38.103 ServerApp] Saving file at /notebooks/Assg-06-KMeans-and-PCA.ipynb
+[I 2024-12-06 09:05:02.198 ServerApp] Saving file at /src/assg_tasks.py
+[I 2024-12-06 09:05:19.756 ServerApp] Kernel restarted: 46bd0a59-9d33-426d-bb2e-642beba8ea5e
+[I 2024-12-06 09:05:19.762 ServerApp] Starting buffering for 46bd0a59-9d33-426d-bb2e-642beba8ea5e:30ca4ae1-d162-4cae-a5a5-d09d178d688b
+[I 2024-12-06 09:05:19.857 ServerApp] Connecting to kernel 46bd0a59-9d33-426d-bb2e-642beba8ea5e.
+[I 2024-12-06 09:05:19.857 ServerApp] Restoring connection for 46bd0a59-9d33-426d-bb2e-642beba8ea5e:30ca4ae1-d162-4cae-a5a5-d09d178d688b
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[I 2024-12-06 09:05:39.850 ServerApp] Saving file at /notebooks/Assg-06-KMeans-and-PCA.ipynb
+[I 2024-12-06 09:07:39.902 ServerApp] Saving file at /notebooks/Assg-06-KMeans-and-PCA.ipynb
+[I 2024-12-06 09:08:12.484 ServerApp] Kernel restarted: 46bd0a59-9d33-426d-bb2e-642beba8ea5e
+[I 2024-12-06 09:08:12.489 ServerApp] Starting buffering for 46bd0a59-9d33-426d-bb2e-642beba8ea5e:30ca4ae1-d162-4cae-a5a5-d09d178d688b
+[I 2024-12-06 09:08:12.634 ServerApp] Connecting to kernel 46bd0a59-9d33-426d-bb2e-642beba8ea5e.
+[I 2024-12-06 09:08:12.635 ServerApp] Restoring connection for 46bd0a59-9d33-426d-bb2e-642beba8ea5e:30ca4ae1-d162-4cae-a5a5-d09d178d688b
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[I 2024-12-06 09:09:40.851 ServerApp] Saving file at /notebooks/Assg-06-KMeans-and-PCA.ipynb
+[I 2024-12-06 09:10:34.009 ServerApp] Saving file at /notebooks/Assg-06-KMeans-and-PCA.ipynb
+[I 2024-12-06 09:10:36.210 ServerApp] Starting buffering for 46bd0a59-9d33-426d-bb2e-642beba8ea5e:30ca4ae1-d162-4cae-a5a5-d09d178d688b
